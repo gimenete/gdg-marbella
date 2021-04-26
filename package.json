@@ -1,0 +1,27 @@
+{
+  "name": "gdg-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gimenete/gdg-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gimenete/gdg-test/issues"
+  },
+  "homepage": "https://github.com/gimenete/gdg-test#readme",
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

@@ -17,4 +17,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: echo hello world!!
+    - run: echo ${{ github.event.inputs.logLevel }} ${{ github.event.inputs.tags }} !!

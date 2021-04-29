@@ -45,4 +45,5 @@ jobs:
     - run: node image.js
     - uses: actions/upload-artifact@v2
       with:
+        name: thumbnail.jpg
         path: thumbnail.jpg

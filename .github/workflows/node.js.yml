@@ -13,6 +13,8 @@ env:
 jobs:
   build:
   
+    environment: production
+  
     services:
       postgres:
         image: postgres

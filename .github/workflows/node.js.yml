@@ -42,4 +42,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
-    - run: node database.js
+    - run: node image.js
+    - uses: actions/upload-artifact@v2
+      with:
+        path: thumbnail.jpg

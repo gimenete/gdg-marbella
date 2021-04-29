@@ -17,4 +17,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: echo ${{ github.event.inputs.logLevel }} ${{ github.event.inputs.tags }} !!
+    - run: echo ${{ secrets.STORE_PASSWORD }} !!
